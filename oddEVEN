@@ -1,0 +1,26 @@
+#include<iostream>
+
+using namespace std;
+    int main(){
+        int num;
+        cout<<"Age:";
+        cin>>num;
+
+        if(num<12)
+        {
+            cout<<"child";     
+        }
+        elseif(12<num<18)
+        {
+            cout<<"Teenager";
+        }
+        elseif(100>num>18)
+        {
+            cout<<"adult";
+        }
+        else
+        {
+            cout<<"error";
+        }
+
+    }
