@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int n,m;
+    cout<<"Enter number of rows:"<<endl;
+    cin>>n;
+    cout<<"Enter number of Columns:"<<endl;
+    cin>>m;
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(i==0,n&&j==0,n){ // comma operator ignores 0 and returns n so it becomes (n&&n) which is true if(true)
+                cout<<"*"; // since n is usually non zero so it becomes if(true) and prints 0 everywheere
+            }
+            else{
+                cout<<" ";
+            }
+    }cout<<endl;
+}
+}
